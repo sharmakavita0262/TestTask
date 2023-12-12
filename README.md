@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Setup Guide
+- Step 1: git clone https://github.com/sharmakavita0262/TestTask.git
+- Step 2: composer install
+- Step 3: php artisan migrate
+- Step 4: php artisan db:seed
+- Step 5: php artisan serve
+- Step 6: npm run dev
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
