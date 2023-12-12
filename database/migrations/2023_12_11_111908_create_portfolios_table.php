@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained();
             $table->foreignId('stock_id')->constrained();
-            $table->enum('transaction_type', ['b', 's'])->comment('b = buy, s = sell');
             $table->integer('quantity');
             $table->decimal('price', 10, 2);
             $table->timestamps();

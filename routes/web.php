@@ -31,7 +31,9 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/stocks', [StockController::class, 'index'])->name('stocks.index');
     Route::post('/buy-stock', [StockController::class, 'buyStock'])->name('buy-stock');
+    Route::post('/sell-stock', [StockController::class, 'sellStock'])->name('sell-stock');
     Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio.index');
+    Route::get('/sold-stocks', [PortfolioController::class, 'soldStocks'])->name('portfolio.soldStocks');
 
 });
 
