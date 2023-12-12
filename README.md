@@ -8,7 +8,7 @@
 </p>
 
 ## Setup Guide
-- Step 1: git clone https://github.com/sharmakavita0262/TestTask.git
+- Step 1: git clone
 - Step 2: composer install
 - Step 3: php artisan migrate
 - Step 4: php artisan db:seed
