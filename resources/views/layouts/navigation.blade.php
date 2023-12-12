@@ -21,6 +21,9 @@
                     <x-nav-link :href="route('portfolio.index')" :active="request()->routeIs('portfolio.index')">
                         {{ __('Portfolio') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('portfolio.soldStocks')" :active="request()->routeIs('portfolio.soldStocks')">
+                        {{ __('Sold Stocks') }}
+                    </x-nav-link>
                 </div>
             </div>
 
